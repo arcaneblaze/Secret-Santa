@@ -6,7 +6,7 @@ using Telegram.Bot.Types;
 namespace SecretSantaBot;
 
 class Program {
-    private static readonly string _token = "7832404286:AAHLu7pFHP-T0Jc4-3mxlCF8IFIJzpmoa7k";
+    private static readonly string _token = /*BOT TOKEN*/;
     static async Task Main(string[] args) {
         var bot = new TelegramBotClient(_token);
         bot.StartReceiving(UpdateHandler, ErrorHandler);
